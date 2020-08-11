@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import numpy as np
 
-data = pd.DataFrame({'Gender' : ['M', 'F'] * 12,
+data = pd.DataFrame({'Gender' : ['M', 'F', None] * 12,
                    'Language' : ['P', 'F'] * 12,
                    'Quantity' : np.random.randn(24),
                    'Values' : np.random.random_integers(0,4,24)})
